@@ -38,7 +38,7 @@ int main() {
 
 	sf::Font font;
 	if (!font.loadFromFile("LiberationSans.ttf")) {
-		return -1; // Error loading font
+		return -1;
 	}
     sf::Text scoreText;
 	scoreText.setFont(font);
